@@ -1,0 +1,29 @@
+#root {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.pokeCard {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.pokeCard:hover {
+    background-color: lightblue;
+}
+
+.score {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
